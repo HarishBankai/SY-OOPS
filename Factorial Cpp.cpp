@@ -33,7 +33,7 @@ long long fact(int n) {
     } 
     else {
         // Recursive case:
-        // n! = n × (n-1)!
+        // n! = n Ã— (n-1)!
         return n * fact(n - 1);
     }
 }
